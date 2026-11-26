@@ -1,0 +1,1 @@
+Add your own Packet Tracer .pkt, ring topology screenshot and before/after link-failure pings.

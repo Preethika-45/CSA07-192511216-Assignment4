@@ -1,0 +1,29 @@
+$ python Task06/campus_capacity.py
+Laboratories: 3 Gbps / 10 Gbps = 30% utilisation
+Hostels: 3 Gbps / 10 Gbps = 30% utilisation
+Academic: 2 Gbps / 10 Gbps = 20% utilisation
+Library: 1 Gbps / 10 Gbps = 10% utilisation
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+
+Exit code: 0
+
+TASK 6 – DESIGN CHECKLIST RESULTS
+Core switches proposed: 2 (redundant pair)
+Internet providers: 2
+Illustrative uplink utilisation:
+Laboratories: 3/10 Gbps = 30%
+Hostels:       3/10 Gbps = 30%
+Academic:      2/10 Gbps = 20%
+Library:       1/10 Gbps = 10%
+These are planning calculations, not measured traffic or a completed Packet Tracer failover test.

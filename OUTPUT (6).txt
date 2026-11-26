@@ -1,0 +1,5 @@
+TASK 1 – CALCULATED RESULTS
+Old shared bus assumption: 10 Mbps total / 30 computers = 0.333 Mbps per computer.
+New switched access: 1 Gbps dedicated full-duplex link per computer.
+Illustrative server uplink: 10 Gbps / 30 simultaneous transfers = 333.3 Mbps per computer (ideal equal share).
+These are calculated estimates based on the stated assumptions, not measured network throughput.

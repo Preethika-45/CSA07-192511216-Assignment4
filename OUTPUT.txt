@@ -1,0 +1,20 @@
+TASK 5 – EXPECTED PACKET TRACER CLI CHECK
+Command: show vlan brief
+
+VLAN  Name         Ports
+10    Office       Fa0/1–Fa0/12
+20    CCTV         Fa0/13–Fa0/20
+30    Guest-WiFi   Fa0/21–Fa0/24
+
+Command: show interfaces trunk
+
+Port   Mode   Encapsulation   Status     Allowed VLANs
+Gi0/1  on     802.1q          trunking   10,20,30
+
+EXPECTED CONNECTIVITY TESTS (verify in your own Packet Tracer file)
+Office VLAN ↔ permitted Office resources: allowed by policy
+Guest VLAN → Office VLAN: blocked by guest ACL
+Guest VLAN → approved internet destination: permitted if routing/firewall/ISP are configured
+Broadcast domains: 1 before VLAN segmentation; 3 after VLANs 10, 20 and 30.
+
+This is an expected configuration/result template, not a captured Packet Tracer session.
