@@ -1,1 +1,0 @@
-Add Packet Tracer .pkt, show vlan brief, show interfaces trunk and ping screenshots.
